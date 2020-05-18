@@ -8,7 +8,7 @@ namespace OwlDotNetApiTest
 	/// <summary>
 	/// Summary description for Test.
 	/// </summary>
-	class Test
+	public class Test
 	{
 
 		public Test() 
@@ -343,7 +343,7 @@ namespace OwlDotNetApiTest
 		/// The main entry point for the application.
 		/// </summary>
 		[STAThread]
-		static void Main(string[] args)
+		public static void Main(string[] args)
 		{
 			Test t = new Test();
 
